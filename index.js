@@ -1,3 +1,6 @@
 function change() {
-    // your code goes here
+    const title = document.getElementById('titleId');
+    title.innerHTML = 'Hello Mundo';
 }
+
+change()
